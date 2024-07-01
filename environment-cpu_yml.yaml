@@ -1,0 +1,20 @@
+name: pyknotid 
+channels:
+  - conda-forge
+dependencies:
+  - python = 3.11
+  - cython
+  - peewee
+  - sympy
+  - numpy
+  - pip
+  - planarity
+  - matplotlib
+  - networkx
+  - vispy
+  - appdirs
+  - requests
+  - tqdm
+  - pip:
+      - git+https://github.com/hagberg/planarity.git@master
+      - git+https://github.com/chrisjonesBSU/pyknotid.git@master
